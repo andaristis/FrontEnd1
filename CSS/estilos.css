@@ -1,0 +1,112 @@
+
+*{
+    box-sizing:border-box;}
+body
+    {padding: 0;
+    margin: 0;}
+
+.descuentos
+    {margin: 0;
+    background-color: #D1891C;
+    padding: 2px;
+    font-family: roboto;
+    font-size: 8px;
+z-index: 2;}
+    
+header
+    {margin: 0;
+    position: sticky;
+    top:0;
+    background-color: #00669F;
+    padding: 1em;
+    font-family: roboto;
+    color: white;
+    box-shadow: 0px 8px 10px grey;
+    z-index: 1;}
+header h1{font-size: 2rem}
+
+main{display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; }
+
+.Card{
+    display: flex;
+    padding:0;  
+    margin:50px;
+    width:300px;
+    height: 700px;
+    background-color: #F3F3F3; 
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 8px 10px black;
+    border-radius: 10px;
+    flex-direction: column;}
+
+.imagentarjeta{
+    position: absolute;
+    top:0px;
+    border-radius: 10px 10px 0px 0px}
+
+.perfil{position: absolute;
+    top: 132px;;
+    left:88px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 10px black}
+
+.corazon{position: absolute;
+    top: 10px;;
+    left: 10px;}
+
+.infotarjeta {margin-top: 120px;
+    padding: 10px;
+    font-family: roboto;
+    font-size: 1em;}
+
+.infotarjeta h1 {font-family: roboto;
+    font-size: 1.5em;}
+
+.infotarjeta p{font-size: 0.8em}
+
+.Button{color: white;
+    padding: 20px 40px;
+    background-color: #00669F;
+    margin-top: 40px;
+    box-shadow: 0px 8px 10px grey;
+    width: 50%;
+    border-radius: 2px;
+    position: absolute;
+    right: 75px;
+    bottom: 35px;
+    font-family: roboto;
+    font-size: 18px;
+    text-decoration: none;}
+
+footer{display:flex;
+    background-color: #00669F;
+    padding: 40px; 
+    color:white;
+    font-family: roboto;
+    font-size: 15px ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;}
+
+.guithub{position: absolute;
+    align-items: center;
+    right: 20px;
+    width: 150px;}
+
+@media (max-width:600px){
+    header h1{font-size: 1rem}
+    footer{padding: 60px;position: relative;width: 100%; bottom: 0px}
+    span{position:absolute; top: 20px;}
+    .guithub{right: 38vw;align-items: none;padding: 20px;}
+}  
+
+
+
+    
